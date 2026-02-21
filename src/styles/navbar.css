@@ -1,0 +1,131 @@
+/* src/styles/navbar.css */
+@import './variables.css';
+
+/* Navbar Container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  transition: all var(--transition-normal);
+  padding: var(--spacing-lg) var(--spacing-xl);
+}
+
+.navbar--scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: var(--spacing-md) var(--spacing-xl);
+}
+
+/* Navbar Inner */
+.navbar__container {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.navbar__logo {
+  font-family: 'Syne', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  background: var(--gradient-cyan-purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform var(--transition-fast);
+}
+
+.navbar__logo:hover {
+  transform: scale(1.05);
+}
+
+/* Desktop Menu */
+.navbar__menu {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xl);
+  }
+}
+
+/* Nav Links */
+.navbar__link {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-gray-300);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: color var(--transition-fast);
+}
+
+.navbar__link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-cyan);
+  transition: width var(--transition-fast);
+}
+
+.navbar__link:hover {
+  color: var(--color-cyan);
+}
+
+.navbar__link:hover::after {
+  width: 100%;
+}
+
+/* Mobile Menu Button */
+.navbar__toggle {
+  display: block;
+  background: none;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  padding: var(--spacing-sm);
+}
+
+@media (min-width: 1024px) {
+  .navbar__toggle {
+    display: none;
+  }
+}
+
+/* Mobile Menu */
+.navbar__mobile {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.95);
+  padding: var(--spacing-lg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar__mobile--open {
+  display: block;
+}
+
+/* Mobile Links */
+.navbar__mobile-link {
+  display: block;
+  padding: var(--spacing-md) 0;
+  color: var(--color-gray-300);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.navbar__mobile-link:hover {
+  color: var(--color-cyan);
+}

@@ -1,0 +1,51 @@
+/* src/styles/variables.css */
+:root {
+  /* Colors */
+  --color-bg: #050508;
+  --color-cyan: #00f5ff;
+  --color-purple: #9333ea;
+  --color-pink: #ff00ff;
+  --color-white: #ffffff;
+  --color-gray-300: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-700: #374151;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(to right, #00f5ff, #9333ea, #ff00ff);
+  --gradient-cyan-purple: linear-gradient(to right, #00f5ff, #9333ea);
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-glow: 0 0 60px rgba(0, 245, 255, 0.3);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+/* Utility Classes */
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import './styles/variables.css';
+@import './styles/navbar.css';
+@import './styles/hero.css';
+@import './styles/about.css';
+@import './styles/experience.css';
+@import './styles/projects.css';
+@import './styles/skills.css';
+@import './styles/education.css';
+@import './styles/achievements.css';
+@import './styles/contact.css';
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background-color: #050508; color: white; font-family: 'Space Grotesk', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Syne', sans-serif; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #050508; }
+::-webkit-scrollbar-thumb { background: linear-gradient(to bottom, #00f5ff, #9333ea); border-radius: 4px; }
+::selection { background: rgba(0, 245, 255, 0.3); color: white; }
