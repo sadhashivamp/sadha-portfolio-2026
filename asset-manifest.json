@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/sadha-portfolio-2026/static/css/main.ae61ed96.css",
-    "main.js": "/sadha-portfolio-2026/static/js/main.ada6ecdd.js",
+    "main.css": "/sadha-portfolio-2026/static/css/main.b306c7a3.css",
+    "main.js": "/sadha-portfolio-2026/static/js/main.79874cd4.js",
     "static/js/453.e2570d26.chunk.js": "/sadha-portfolio-2026/static/js/453.e2570d26.chunk.js",
+    "static/media/sadha1.png": "/sadha-portfolio-2026/static/media/sadha1.f2f5846b361ebde98c8a.png",
     "static/media/profile_sadha.png": "/sadha-portfolio-2026/static/media/profile_sadha.d20aff4ffa715774b43b.png",
     "index.html": "/sadha-portfolio-2026/index.html",
-    "main.ae61ed96.css.map": "/sadha-portfolio-2026/static/css/main.ae61ed96.css.map",
-    "main.ada6ecdd.js.map": "/sadha-portfolio-2026/static/js/main.ada6ecdd.js.map",
+    "main.b306c7a3.css.map": "/sadha-portfolio-2026/static/css/main.b306c7a3.css.map",
+    "main.79874cd4.js.map": "/sadha-portfolio-2026/static/js/main.79874cd4.js.map",
     "453.e2570d26.chunk.js.map": "/sadha-portfolio-2026/static/js/453.e2570d26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae61ed96.css",
-    "static/js/main.ada6ecdd.js"
+    "static/css/main.b306c7a3.css",
+    "static/js/main.79874cd4.js"
   ]
 }
