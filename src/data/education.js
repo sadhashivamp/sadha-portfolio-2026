@@ -1,4 +1,3 @@
-// src/data/education.js
 export const education = [
   {
     id: 1,
@@ -12,18 +11,17 @@ export const education = [
   },
   {
     id: 2,
-    degree: "AI / Machine Learning Training",
-    institution: "Advanced Certification Program",
-    location: "Online",
+    degree: "Advanced Certification in AI & Machine Learning",
+    institution: "IIT Patna in collaboration with Masai School",
+    location: "Online (IIT Patna & Masai)",
     year: "2026",
     duration: "February 2026 – August 2026",
-    description: "Comprehensive training in Artificial Intelligence and Machine Learning fundamentals, neural networks, deep learning, and practical applications",
+    description: "Comprehensive training in AI/ML fundamentals, neural networks, deep learning, and practical applications through IIT Patna's academic rigor combined with Masai School's hands-on industry approach",
     icon: "🤖",
     type: "ongoing",
-    status: "Ongoing"
+    status: "Ongoing",
+    partners: ["IIT Patna", "Masai School"]
   }
 ];
 
-export const certifications = [
-  // Add any certifications here
-];
+export const certifications = [];

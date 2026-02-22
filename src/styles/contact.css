@@ -2,7 +2,7 @@
 @import './variables.css';
 
 .contact {
-  padding: 50px 20px;
+  padding: 100px 20px;
   background: var(--color-bg);
   position: relative;
 }
