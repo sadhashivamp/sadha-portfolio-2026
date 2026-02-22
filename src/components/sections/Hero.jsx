@@ -26,12 +26,12 @@ const Hero = () => {
       <div className="hero__grid" />
       <div className="hero__glow hero__glow--1" />
       <div className="hero__glow hero__glow--2" />
-      
+
       <div className="hero__container">
-        
+
         {/* LEFT - Content */}
         <div className="hero__content">
-          
+
           {/* Animated Badge */}
           <div className="hero__badge">
             <span className="hero__badge-dot" />
@@ -49,8 +49,8 @@ const Hero = () => {
           {/* Tech Stack with icons */}
           <div className="hero__tech-stack">
             {heroData.techStack.map((tech, index) => (
-              <span 
-                key={tech} 
+              <span
+                key={tech}
                 className="hero__tech-badge"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
@@ -64,10 +64,13 @@ const Hero = () => {
 
           {/* Enhanced Buttons */}
           <div className="hero__buttons">
-            <a href="/MyResume.pdf" download className="hero__btn hero__btn--primary">
+            <a
+              href={`${process.env.PUBLIC_URL}/MyResume.pdf`}
+              download="Sadha_Sivam_Resume.pdf"
+              className="hero__btn hero__btn--primary"
+            >
               <Download size={18} />
               <span>Download Resume</span>
-              <ArrowRight size={16} className="hero__btn-arrow" />
             </a>
             <a href="#projects" className="hero__btn hero__btn--secondary">
               View Projects
@@ -93,25 +96,25 @@ const Hero = () => {
 
         {/* RIGHT - Enhanced Image Display */}
         <div className="hero__image-wrapper">
-          
+
           {/* Multiple Animated Blobs */}
           <div className="hero__blob-bg hero__blob-bg--1" />
           <div className="hero__blob-bg hero__blob-bg--2" />
-          
+
           {/* Rotating Rings */}
           <div className="hero__ring hero__ring--1" />
           <div className="hero__ring hero__ring--2" />
-          
+
           {/* Main Image Card */}
           <div className="hero__image-card">
-            <img 
-              src={myImg} 
+            <img
+              src={myImg}
               alt={personalInfo.name}
               className={`hero__image ${imageLoaded ? 'hero__image--loaded' : ''}`}
               onLoad={() => setImageLoaded(true)}
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-            
+
             {!imageLoaded && (
               <div className="hero__fallback">
                 <span className="hero__fallback-text">
@@ -128,28 +131,28 @@ const Hero = () => {
           </div>
 
           {/* Floating Badges with Parallax */}
-          <div 
+          <div
             className="hero__floating-badge hero__floating-badge--1"
             style={{ transform: `translate(${mousePosition.x * 0.5}px, ${mousePosition.y * 0.5}px)` }}
           >
             <span>🏆</span>
             <span>Best Performer</span>
           </div>
-          <div 
+          <div
             className="hero__floating-badge hero__floating-badge--2"
             style={{ transform: `translate(${mousePosition.x * -0.3}px, ${mousePosition.y * -0.3}px)` }}
           >
             <span>⭐</span>
             <span>Insta Award</span>
           </div>
-          <div 
+          <div
             className="hero__floating-badge hero__floating-badge--3"
             style={{ transform: `translate(${mousePosition.x * 0.4}px, ${mousePosition.y * 0.4}px)` }}
           >
             <span>3+</span>
             <span>Years Exp</span>
           </div>
-          
+
         </div>
 
       </div>
