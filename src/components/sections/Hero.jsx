@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Download, ChevronDown, Linkedin, Github, Mail, ArrowRight } from 'lucide-react';
 import { personalInfo, heroData } from '../../data/personalInfo';
 import '../../styles/hero.css';
-import myImg from '../../images/sadha1.png';
+import myImg from '../../images/sada.png';
 
 const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
