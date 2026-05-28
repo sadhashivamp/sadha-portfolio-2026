@@ -10,7 +10,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/sadha-shivam-pendem-764358372/",
   github: "https://github.com/sadhashivamp",
   resumeLink: "/resume.pdf",
-  yearsOfExperience: 3,
+  yearsOfExperience: 4,
   projectsCompleted: 10,
   companiesWorked: 2,
   languages: ["English", "Hindi", "Telugu"]
@@ -20,7 +20,7 @@ export const heroData = {
   badge: "AVAILABLE FOR OPPORTUNITIES",
   title: ["REACT", "FRONTEND DEVELOPER"],
   subtitle: "Associate Consultant at Infosys",
-  description: "Frontend Engineer with 3+ years of experience building scalable web applications. Specialized in React.js, Next.js, and Redux Toolkit with a track record of delivering enterprise-grade solutions.",
+  description: "Frontend Engineer with 4 years of experience building scalable web applications. Specialized in React.js, Next.js, and Redux Toolkit with a track record of delivering enterprise-grade solutions.",
   techStack: ["React.js", "Next.js", "Redux Toolkit", "TypeScript", "JavaScript"]
 };
 
@@ -29,7 +29,7 @@ export const heroData = {
 export const experiences = [
   {
     id: 1,
-    role: "Associate Consultant – Frontend Development",
+    role: "Senior Associate Consultant – Frontend Development",
     company: "Infosys Limited",
     location: "Hyderabad, India",
     period: "July 2024 – Present",
@@ -107,25 +107,66 @@ export const projects = [
 export const skills = [
   {
     category: "Frontend Core",
-    items: ["React.js", "Next.js", "TypeScript", "JavaScript ES6+", "Redux Toolkit", "Context API"],
+    items: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript ES6+",
+      "Redux Toolkit",
+      "Context API"
+    ],
     color: "cyan"
   },
   {
     category: "UI Frameworks",
-    items: ["Material-UI", "Tailwind CSS", "Bootstrap", "Responsive Design", "Figma"],
+    items: [
+      "Material-UI",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Responsive Design",
+      "Figma"
+    ],
     color: "purple"
   },
   {
+    category: "Programming & AI/ML Learning",
+    items: [
+      "Python",
+      "SQL",
+      "NumPy",
+      "Pandas",
+      "Machine Learning Fundamentals",
+      "AI/ML Concepts",
+      "Data Analysis Basics"
+    ],
+    color: "orange"
+  },
+  {
     category: "Tools & Platforms",
-    items: ["Git", "GitHub", "GitLab", "JIRA", "Confluence", "Postman", "VS Code"],
+    items: [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "JIRA",
+      "Confluence",
+      "Postman",
+      "VS Code"
+    ],
     color: "pink"
   },
   {
     category: "Testing",
-    items: ["Jest", "React Testing Library", "Enzyme", "ESLint", "Prettier"],
+    items: [
+      "Jest",
+      "React Testing Library",
+      "Enzyme",
+      "ESLint",
+      "Prettier"
+    ],
     color: "green"
   }
 ];
+
 
 export const education = [
   {
