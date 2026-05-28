@@ -2,7 +2,7 @@
 export const personalInfo = {
   name: "Sadha Shivam Pendem",
   title: "React Developer",
-  role: "Associate Consultant",
+  role: "Senior Associate Consultant",
   company: "Infosys Limited",
   location: "Hyderabad, India",
   email: "sadha.info.8328@gmail.com",
