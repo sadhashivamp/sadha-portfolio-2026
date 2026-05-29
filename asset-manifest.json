@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sadha-portfolio-2026/static/css/main.b306c7a3.css",
-    "main.js": "/sadha-portfolio-2026/static/js/main.4d150f98.js",
+    "main.js": "/sadha-portfolio-2026/static/js/main.1a053897.js",
     "static/js/453.e2570d26.chunk.js": "/sadha-portfolio-2026/static/js/453.e2570d26.chunk.js",
     "static/media/sada.png": "/sadha-portfolio-2026/static/media/sada.a4155c04074aaa7bc490.png",
     "static/media/profile_sadha.png": "/sadha-portfolio-2026/static/media/profile_sadha.d20aff4ffa715774b43b.png",
     "index.html": "/sadha-portfolio-2026/index.html",
     "main.b306c7a3.css.map": "/sadha-portfolio-2026/static/css/main.b306c7a3.css.map",
-    "main.4d150f98.js.map": "/sadha-portfolio-2026/static/js/main.4d150f98.js.map",
+    "main.1a053897.js.map": "/sadha-portfolio-2026/static/js/main.1a053897.js.map",
     "453.e2570d26.chunk.js.map": "/sadha-portfolio-2026/static/js/453.e2570d26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b306c7a3.css",
-    "static/js/main.4d150f98.js"
+    "static/js/main.1a053897.js"
   ]
 }
