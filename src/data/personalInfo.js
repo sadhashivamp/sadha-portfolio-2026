@@ -10,7 +10,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/sadha-shivam-pendem-764358372/",
   github: "https://github.com/sadhashivamp",
   resumeLink: "/resume.pdf",
-  yearsOfExperience: 4,
+  yearsOfExperience: "4",
   projectsCompleted: 10,
   companiesWorked: 2,
   languages: ["English", "Hindi", "Telugu"]
@@ -19,8 +19,8 @@ export const personalInfo = {
 export const heroData = {
   badge: "AVAILABLE FOR OPPORTUNITIES",
   title: ["REACT", "FRONTEND DEVELOPER"],
-  subtitle: "Associate Consultant at Infosys",
-  description: "Frontend Engineer with 4 years of experience building scalable web applications. Specialized in React.js, Next.js, and Redux Toolkit with a track record of delivering enterprise-grade solutions.",
+  subtitle: "Senior Associate Consultant at Infosys",
+  description: "Frontend Engineer with 4+ years of experience building scalable web applications. Specialized in React.js, Next.js, and Redux Toolkit with a track record of delivering enterprise-grade solutions.",
   techStack: ["React.js", "Next.js", "Redux Toolkit", "TypeScript", "JavaScript"]
 };
 

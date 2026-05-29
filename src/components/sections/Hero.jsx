@@ -149,7 +149,7 @@ const Hero = () => {
             className="hero__floating-badge hero__floating-badge--3"
             style={{ transform: `translate(${mousePosition.x * 0.4}px, ${mousePosition.y * 0.4}px)` }}
           >
-            <span>3+</span>
+            <span>4+</span>
             <span>Years Exp</span>
           </div>
 
